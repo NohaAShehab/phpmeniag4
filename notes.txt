@@ -1,0 +1,48 @@
+0- when you request page from the server , you are using the get method
+
+1- when use form in sending data
+
+    <form action="", ,method="">
+
+   action ---> where I will send the data
+   method --> how the data will be sent
+
+
+   method
+   GET --> send data in the url ,using query string parameter
+   http://localhost/meniaphp4/day01/register.php?username=update.iti%40gmail.com
+                    &email=asjkdkljas%40f.com
+                    &password=jkshjkfhsd
+    ? in url --> means that data will be sent in the url (query string parameters)
+
+
+   POST----> send data to the server ---> hidden
+   --> data are sent in request body as ((Form data))
+
+
+   ----------------------
+   you don't need to define the datatype of the variable in php
+
+   php --> loosly dynamically typed language
+
+   ---> PHP --> is interpreted langauge...
+   execute the script line by line
+
+
+   PHP interpreter detect the datatype of the variable in the runtime
+   according to the value you pass it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
