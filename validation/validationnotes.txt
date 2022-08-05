@@ -1,0 +1,18 @@
+1- when the user doesn't fill the fields
+2- I should display error the the user
+3- then return to the page loginform.php
+
+------------
+$errors= []
+ if(empty($_POST["email"])){
+        $errors["email"]="email required";
+    }
+
+    if(empty($_POST["password"])){
+        $errors["password"]="password required";
+    }
+4- I need to send the error back to the form
+5- I will send it using the url,
+6- I need to conver the errors array to string using json_encode($errors)
+7- send the errors with the url (query string)
+------------------ go to the loginform.php page
